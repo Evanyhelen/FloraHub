@@ -1,75 +1,102 @@
 .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #f9f9f9;
-    height: 115px;
-    padding: 31px 66px 31px 28px;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 115px;
+  padding: 31px 66px;
+}
 
-  .logo {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo img {
-    height: 23px;
-    width: 15px;
-    margin-right: 8px;
-  }
-  
-  .logo span {
-    font-size: 18px;
-    font-weight: bold;
-    color: #6B6969;
+.logo {
+  display: flex;
+  align-items: center;
+}
 
-  }
-  
-  .search-bar {
-    display: flex;
-    align-items: center;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    padding: 5px 10px;
-  }
-  
-  .search-bar input {
-    border: none;
-    outline: none;
-    width: 200px;
-    padding: 5px;
-  }
-  
-  .search-bar button {
-    background: none;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .search-bar img {
-    height: 20px;
-    width: 20px;
-  }
-  
-  .header-icons {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-  }
-  
-  .header-icons button {
-    background: none;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .header-icons img {
-    height: 24px;
-    width: 24px;
-  }
-  
-  .header-icons span {
-    font-size: 1rem;
-    color: #333;
-  }
-  
+.logo img {
+  height: 30px;
+  width: 25px;
+  margin-right: 8px;
+}
+
+.logo span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #6B6969;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #C8C6C6;
+  border-radius: 29px;
+  padding: 0px 10px;
+  height: 45px;
+  width: 400px;
+
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  padding: 5px 16px;
+  height: 45px;
+  width: 400px;
+  background-color: transparent;
+  font-size: 16px;
+  color: #6B6969;
+}
+
+.search-bar input::placeholder {
+  color: #6B6969;
+  font-size: 16px;
+  text-align: start;
+}
+
+.search-bar .img {
+  width: 23px;
+  height: 23px;
+}
+
+.search-bar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+}
+
+button img {
+  height: 33px;
+  width: 32px;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-icons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.header-icons img {
+  height: 35px;
+  width: 35px;
+}
+
+.header-icons span {
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+}
+
+/* Nova classe para a linha de separação */
+.vertical-separator {
+  height: 35px;
+  width: 2px;
+  background-color: #C8C6C6; /* Cor da linha */
+  margin: 14px; /* Espaço à esquerda e à direita da linha */
+}

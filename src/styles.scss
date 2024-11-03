@@ -4,3 +4,17 @@
     box-sizing: border-box;
     font-family: "Josefin Sans", sans-serif;
   }
+
+  /* Oculta a barra de rolagem em navegadores WebKit (Chrome, Safari, Opera) */
+::-webkit-scrollbar {
+  width: 0px; 
+  height: 0px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent; 
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent; 
+}
